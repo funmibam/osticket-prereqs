@@ -3,7 +3,8 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+## Overview
+<br> This project is part of my Course Careers lab work, where I successfully set up and installed osTicket on a Windows 10 Virtual Machine (VM) hosted on Azure. This guide outlines the step-by-step process I followed, including configuring IIS, installing MySQL, and setting up osTicket. Screenshots have been added to show progress at key steps.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -17,14 +18,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Windows 10</b> (21H2)
 
 
-osticket - Prerequisites and Installation
-
-## Overview
-This project is part of my Course Careers lab work, where I successfully set up and installed osTicket on a Windows 10 Virtual Machine (VM) hosted on Azure. This guide outlines the step-by-step process I followed, including configuring IIS, installing MySQL, and setting up osTicket. Screenshots have been added to show progress at key steps.
-
-## Prerequisites
-- Access to Microsoft Azure to create a virtual machine.
-- Basic understanding of using IIS (Internet Information Services) and PHP configuration.
 
 ## Project Steps
 
