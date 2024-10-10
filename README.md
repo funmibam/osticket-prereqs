@@ -3,7 +3,6 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-## Overview
 <br> This project is part of my Course Careers lab work, where I successfully set up and installed osTicket on a Windows 10 Virtual Machine (VM) hosted on Azure. This guide outlines the step-by-step process I followed, including configuring IIS, installing MySQL, and setting up osTicket. Screenshots have been added to show progress at key steps.<br />
 
 
