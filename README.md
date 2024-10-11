@@ -26,10 +26,9 @@ In this project, I first created an Azure Virtual Machine with the following spe
 - **Operating System**: Windows 10
 - **vCPUs**: 4 (required for osTicket performance)
 - **Username**: `labuser`
-- **Password**: `osTicketPassword1!`
+- **Password**: `osTicketPassword
 
-<img width="324" alt="Screenshot 2024-10-11 152021" src="https://github.com/user-attachments/assets/8dfc0ad2-aec0-4d1b-84b6-9711f6d54e28">
-
+<img width="472" alt="Screenshot 2024-10-11 144508" src="https://github.com/user-attachments/assets/540ba5e7-ec97-4752-ab0b-5457bdefac06">
 
 
 
@@ -44,8 +43,6 @@ To prepare the VM for osTicket, I enabled IIS and the necessary features:
 2. Enabled **Internet Information Services (IIS)**, ensuring **CGI** was checked under:
    - **World Wide Web Services** -> **Application Development Features**.
 
-*Screenshot of IIS installation*:
-![IIS Installation](path/to/your/screenshot2.png)
 
 ---
 
@@ -64,8 +61,9 @@ Next, I configured PHP to work with IIS:
 2. Extracted **PHP 7.3.8** (`php-7.3.8-nts-Win32-VC15-x86.zip`) to the `C:\PHP` folder.
 3. Installed **VC_redist.x86.exe** to meet the PHP dependency requirements.
 
-*Screenshot of PHP folder*:
-![PHP Folder](path/to/your/screenshot3.png)
+<img width="664" alt="Screenshot 2024-10-11 220531" src="https://github.com/user-attachments/assets/8beb62b9-1110-44ab-aa29-0ed9a09d03af">
+
+
 
 ---
 
@@ -84,8 +82,9 @@ Now that PHP and MySQL were installed, I set up IIS for osTicket:
 3. Unzipped **osTicket-v1.15.8.zip** and moved the `upload` folder to `C:\inetpub\wwwroot`.
 4. Renamed the `upload` folder to `osTicket`.
 
-*Screenshot of IIS Manager setup*:
-![IIS Manager](path/to/your/screenshot4.png)
+<img width="781" alt="Screenshot 2024-10-11 215820" src="https://github.com/user-attachments/assets/bbb67351-19b9-4dd2-9ffc-803b66bb9b1a">
+
+
 
 ---
 
@@ -120,8 +119,8 @@ Finally, I accessed osTicket from a web browser to finalize the installation:
    - **Password**: `root`
 4. Clicked **Install Now!** to complete the installation.
 
-*Screenshot of osTicket setup in browser*:
-![osTicket Setup](path/to/your/screenshot5.png)
+
+![osTicket Setup](https://github.com/user-attachments/assets/fd613ece-4fe7-497e-b7a9-d244f065d671)
 
 ---
 
@@ -141,6 +140,6 @@ Once the installation was complete:
 ## Conclusion
 This project demonstrates the steps I took to successfully install and configure osTicket as part of my course work. Each step involved configuring the server environment, installing necessary software, and setting up a fully functioning helpdesk system. This hands-on experience provided valuable insights into server management and software installation in a real-world environment.
 
-*Additional screenshots are available throughout the repository to show progress and configurations at key steps.*
+
 
 ---
