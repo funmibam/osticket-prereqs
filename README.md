@@ -28,8 +28,11 @@ In this project, I first created an Azure Virtual Machine with the following spe
 - **Username**: `labuser`
 - **Password**: `osTicketPassword1!`
 
-*Screenshot of VM setup in Azure*:
-![Azure VM Setup](path/to/your/screenshot1.png)
+<img width="324" alt="Screenshot 2024-10-11 152021" src="https://github.com/user-attachments/assets/8dfc0ad2-aec0-4d1b-84b6-9711f6d54e28">
+
+
+
+
 
 After setting up the VM, I accessed it via Remote Desktop (RDP).
 
