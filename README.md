@@ -54,11 +54,9 @@ After configuring IIS, I downloaded the required files and prepared the environm
    - **PHP Manager for IIS** (`PHPManagerForIIS_V1.5.0.msi`)
    - **Rewrite Module** (`rewrite_amd64_en-US.msi`)
   
-   
-  <img width="581" alt="image" src="https://github.com/user-attachments/assets/a695a6a4-c6b7-4bec-931a-0cd0dda50703">
-  
+   <img width="577" alt="image" src="https://github.com/user-attachments/assets/8048bcbd-10d2-4464-a144-41407a1f2679">
 
-   - <img width="704" alt="Annotation 2024-10-29 183043" src="https://github.com/user-attachments/assets/1a9e5db4-8c39-457b-b769-10b752dfb2a0">
+ 
 
 
 ---
@@ -68,6 +66,10 @@ Next, I configured PHP to work with IIS:
 1. Created the directory `C:\PHP`.
 2. Extracted **PHP 7.3.8** (`php-7.3.8-nts-Win32-VC15-x86.zip`) to the `C:\PHP` folder.
 3. Installed **VC_redist.x86.exe** to meet the PHP dependency requirements.
+
+
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/6f13b031-9a96-4a9e-b79a-f6392c002e32">
+
 
 <img width="581" alt="image" src="https://github.com/user-attachments/assets/adb093dc-d0ce-4b57-9d4a-bd6804c2fc72">
 
@@ -79,8 +81,17 @@ MySQL was required for the osTicket database:
 2. Followed the **Typical Setup** and used **Standard Configuration**.
 3. Set both the **root** username and password to `root`.
 
+<img width="394" alt="image" src="https://github.com/user-attachments/assets/4854acdc-281c-419e-a4be-004fbcde4143">
 
-<img width="575" alt="image" src="https://github.com/user-attachments/assets/c713b530-0904-426d-b3fd-cedf7d883688">
+
+
+
+
+<img width="371" alt="image" src="https://github.com/user-attachments/assets/1b0544de-a4c7-4e68-91cc-4650ad9f580b">
+
+
+<img width="707" alt="image" src="https://github.com/user-attachments/assets/7c627c8c-837c-490b-83b8-7f0ef1cdcf80">
+
 
 ---
 
@@ -91,7 +102,10 @@ Now that PHP and MySQL were installed, I set up IIS for osTicket:
 3. Unzipped **osTicket-v1.15.8.zip** and moved the `upload` folder to `C:\inetpub\wwwroot`.
 4. Renamed the `upload` folder to `osTicket`.
 
+
 <img width="781" alt="Screenshot 2024-10-11 215820" src="https://github.com/user-attachments/assets/bbb67351-19b9-4dd2-9ffc-803b66bb9b1a">
+
+
 
 
 
