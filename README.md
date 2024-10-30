@@ -43,6 +43,7 @@ To prepare the VM for osTicket, I enabled IIS and the necessary features:
 2. Enabled **Internet Information Services (IIS)**, ensuring **CGI** was checked under:
    - **World Wide Web Services** -> **Application Development Features**.
 
+<img width="704" alt="Annotation 2024-10-29 183043" src="https://github.com/user-attachments/assets/c74e9920-0648-4f19-a59a-497826c780ab">
 
 ---
 
@@ -52,6 +53,13 @@ After configuring IIS, I downloaded the required files and prepared the environm
 2. Installed:
    - **PHP Manager for IIS** (`PHPManagerForIIS_V1.5.0.msi`)
    - **Rewrite Module** (`rewrite_amd64_en-US.msi`)
+  
+   
+  <img width="581" alt="image" src="https://github.com/user-attachments/assets/a695a6a4-c6b7-4bec-931a-0cd0dda50703">
+  
+
+   - <img width="704" alt="Annotation 2024-10-29 183043" src="https://github.com/user-attachments/assets/1a9e5db4-8c39-457b-b769-10b752dfb2a0">
+
 
 ---
 
@@ -61,9 +69,7 @@ Next, I configured PHP to work with IIS:
 2. Extracted **PHP 7.3.8** (`php-7.3.8-nts-Win32-VC15-x86.zip`) to the `C:\PHP` folder.
 3. Installed **VC_redist.x86.exe** to meet the PHP dependency requirements.
 
-<img width="664" alt="Screenshot 2024-10-11 220531" src="https://github.com/user-attachments/assets/8beb62b9-1110-44ab-aa29-0ed9a09d03af">
-
-
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/adb093dc-d0ce-4b57-9d4a-bd6804c2fc72">
 
 ---
 
@@ -72,6 +78,9 @@ MySQL was required for the osTicket database:
 1. Installed **MySQL 5.5.62** (`mysql-5.5.62-win32.msi`).
 2. Followed the **Typical Setup** and used **Standard Configuration**.
 3. Set both the **root** username and password to `root`.
+
+
+<img width="575" alt="image" src="https://github.com/user-attachments/assets/c713b530-0904-426d-b3fd-cedf7d883688">
 
 ---
 
@@ -98,6 +107,8 @@ After setting up IIS, I configured PHP extensions required by osTicket:
 
 This allowed osTicket to function properly. I then restarted IIS once more.
 
+<img width="575" alt="image" src="https://github.com/user-attachments/assets/7ce47296-78b8-4b5e-bce7-17904288091a">
+
 ---
 
 ### 8. Configuring osTicket
@@ -106,6 +117,8 @@ With the basic setup complete, I moved on to osTicket’s configuration:
 2. Changed file permissions for `ost-config.php`:
    - Disabled inheritance and removed existing permissions.
    - Granted **Everyone** full control temporarily to complete the installation.
+  
+<img width="575" alt="image" src="https://github.com/user-attachments/assets/fef9402c-64b4-46e0-8270-34818842b846">
 
 ---
 
@@ -119,8 +132,8 @@ Finally, I accessed osTicket from a web browser to finalize the installation:
    - **Password**: `root`
 4. Clicked **Install Now!** to complete the installation.
 
+<img width="614" alt="image" src="https://github.com/user-attachments/assets/c211b2e7-e475-4c2f-b870-ca35bf540f5b">
 
-![osTicket Setup](https://github.com/user-attachments/assets/fd613ece-4fe7-497e-b7a9-d244f065d671)
 
 ---
 
